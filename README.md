@@ -66,6 +66,7 @@ This project runs as a small OpenAI-compatible server. Add it in OpenWebUI as an
    cd Drex-OpenWebUI-Bridge
    python -m venv .venv
    . .venv/bin/activate  # Windows: .venv\Scripts\activate
+   python -m pip install --upgrade pip
    pip install -e .
    ```
 
